@@ -10,4 +10,4 @@ This is a classic Todo app - no backend implemented, nor any frameworks or libra
 * Clicking on a todo card is visually mark the card as done and a remove-button is added. When the button is clicked, the card is removed from the board (i.e. the local storage).
 * Cards marked as 'done' are moved to the bottom of the list.
 
-| ![Todo](todo.png) |
+![Todo](todo.png)
