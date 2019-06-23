@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alex's ToDo</title>
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <script defer src="./js/todo.js"></script>
+</head>
+<body>
+  <header>
+    <h3>Add New</h3>
+    <form id="note">
+      <input type="text" name="title" placeholder="Title of note" required>
+      <input type="text" name="description" placeholder="Description" required>
+      <button class="btn btn-add" type="submit" name="submit" value="submit">Add</button>
+    </form>
+  </header>
+  <div class="note-container">
+    <h1>To-Do's</h1>
+    <ul id="todo-list"></ul>
+  </div>
+</body>
+</html>
